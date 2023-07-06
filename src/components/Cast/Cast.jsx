@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { fetchMovieCredits } from '../API/TheMovieDB-API';
+import { fetchMovieCredits } from '../../API/TheMovieDB-API';
 import {
   Container,
   List,

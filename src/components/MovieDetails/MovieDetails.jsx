@@ -13,7 +13,7 @@ import {
   BlockWrapper,
 } from './MovieDetails.styled';
 
-import { fetchMovieDetails } from '../API/TheMovieDB-API';
+import { fetchMovieDetails } from '../../API/TheMovieDB-API';
 
 const MovieDetails = () => {
   const location = useLocation();
@@ -73,12 +73,10 @@ const MovieDetails = () => {
             <h3>Additional information</h3>
             <List>
               <ListItem>
-                <StyledLink to={`/movies/${movieId}/cast`}>Cast</StyledLink>
+                <StyledLink to={'cast'}>Cast</StyledLink>
               </ListItem>
               <ListItem>
-                <StyledLink to={`/movies/${movieId}/reviews`}>
-                  Reviews
-                </StyledLink>
+                <StyledLink to={'reviews'}>Reviews</StyledLink>
               </ListItem>
             </List>
           </BlockWrapper>

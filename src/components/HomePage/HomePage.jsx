@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { fetchTrendingMovies } from '../API/TheMovieDB-API';
+import { fetchTrendingMovies } from '../../API/TheMovieDB-API';
 import { Container, List, StyledLink, ListItem } from './HomePage.styled';
 
 const Home = () => {
